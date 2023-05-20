@@ -15,8 +15,8 @@ void counter(int cost, int inc, int pulls ,int n) {
 
 	for (int i = 1; i <= pulls; i++) {
 		n = n + cost;
-		cost = cost + inc;
 		cout << i << " draw costs total cost is " << cost << " Total cost is: " << n << endl;
+		cost = cost + inc;
 	}
 	cout << "===============================================\n";
 }
